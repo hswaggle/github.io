@@ -10,21 +10,25 @@
 ############################
 
 # Name of website
-title: My website
+title: Excercises in Futility
 
 # Your name to show in the footer
-author: Some Person
+author: Harrison Waddell
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Writings:
+    - prose: "prose"
+    - poetry: "poetry"
+    - translations: "translations"
+  Art: "art"
+  Curation of the Web:
+    - Everynoise: "https://everynoise.com/"
+    - Anna's Archive: "https://annas-archive.org/"
+    - 338: "https://338canada.com/"
 
 ################
 # --- Logo --- #
