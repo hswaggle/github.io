@@ -23,6 +23,7 @@ navbar-links:
   Collected Writings:
     - prose: "prose"
     - poetry: "poetry"
+      url: /poetry/the_last_dispatch_cover.html
     - translations: "translations"
   Art: "art"
   Curation of the Web:
