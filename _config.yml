@@ -22,8 +22,7 @@ author: Harrison Waddell
 navbar-links:
   Collected Writings:
     - prose: "prose"
-    - poetry: "poetry"
-      permalink: /the_last_dispatch/
+    - poetry: /poetry/the_last_dispatch.html
     - translations: "translations"
   Art: "art"
   Curation of the Web:
