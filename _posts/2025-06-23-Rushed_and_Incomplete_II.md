@@ -37,3 +37,4 @@ and then she returns to her striving for ascension,
 an irony that is lost on the flower. 
 
 ![Figure 1. Dispatch I-IV]({{ '/assets/img/ItoIV.jpg' | relative_url }}){: .mx-auto.d-block :}
+<span style="text-decoration:overline">Figure 1. Dispatch I-IV</span>
