@@ -17,4 +17,4 @@ The other figure presented inline is titled *The Horses*, and was my very first 
 
 The Cover Art for the whole collection is probably the spiritual predecessor in the visual medium to this project. Made originally for the cover page of a friends essay on creativity, it was in essence a cleaning out of my digital drawer. Works and expirements from my forays into digital art are drawn and compiled together - with works sourced in her essay. 
 
-In it's original presented form, [the collection](the last dispatch_final.pdf) is presented in pdf form here. The individual peoms can be found in the following posts.   
+In it's original presented form, [the collection]({{ 'the last dispatch_final.pdf' | relative_url }}) is presented in pdf form here. The individual peoms can be found in the following posts.   
