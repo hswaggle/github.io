@@ -1,4 +1,16 @@
+---
+layout: post
+title: Rushed and Incomplete I.  
+subtitle: Dispatch I from The Last Dispatch
+cover-img: /assets/img/Dark drawings final1.jpg
+thumbnail-img: /assets/img/Dark drawings final1.jpg
+share-img: /assets/img/Dark drawings final1.jpg
+tags: [poetry]
+author: Harrison Waddell
+---
+
 Rushed and Incomplete III. 
+
 In earnest, they’d loved each other for at least a month,  
 but they were just now meeting for the first time.  
 It was everything they wanted it to be.  
