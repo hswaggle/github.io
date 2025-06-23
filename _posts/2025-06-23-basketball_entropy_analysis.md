@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [basketball, analytics, entropy, statistics]
 comments: true
 mathjax: true
-author: Harrison Waddell
+author: Harrison Waddell, Ismail Abdelmalek, and Charles Johnson
 ---
 
 {: .box-success}
