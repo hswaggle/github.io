@@ -1,3 +1,14 @@
+---
+layout: post
+title: Rushed and Incomplete I.  
+subtitle: Dispatch I from The Last Dispatch
+cover-img: /assets/img/cover.jpg
+thumbnail-img: /assets/img/cover.jpg
+share-img: /assets/img/cover.jpg
+tags: [poetry]
+author: Harrison Waddell
+---
+
 Rushed and Incomplete I.   
 It is hard to say if it was love,  
 I guess that’s a word I define myself 
