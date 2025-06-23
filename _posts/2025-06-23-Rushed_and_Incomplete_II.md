@@ -36,4 +36,4 @@ and the pistil thinks to itself,
 and then she returns to her striving for ascension,  
 an irony that is lost on the flower. 
 
-![Figure 1. Dispatch I-IV]({{ '/assets/img/ItoIV.jpg' | relative_url }})
+![Figure 1. Dispatch I-IV]({{ '/assets/img/ItoIV.jpg' | relative_url }}){: .mx-auto.d-block :}
