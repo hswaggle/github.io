@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Rushed and Incomplete I.  
-subtitle: Dispatch I from The Last Dispatch
+title: Rushed and Incomplete III.  
+subtitle: Dispatch III from The Last Dispatch
 cover-img: /assets/img/Dark drawings final1.jpg
 thumbnail-img: /assets/img/Dark drawings final1.jpg
 share-img: /assets/img/Dark drawings final1.jpg
