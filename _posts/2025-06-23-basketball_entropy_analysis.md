@@ -42,15 +42,11 @@ Both papers were focused on individual player performance. This is distinct from
 Steeger et al. (2021) use an entropy model for NHL hockey to suggest that team momentum over the course of a season at a game-by-game granularity does not exist. The entropy model looks at the interarrival time between wins for each team and bootstraps a statistical significance level from a random binomial draw. The advantage of this method is it does not require stationarity, in essence allowing for a team get better (or worse) throughout the season. Steeger et al. (2021) make no corrections for difficulty of opponent, rather the bootstrapped hyperparameter is calculated based on each team's individual end of season winning percentage. 
 The entropy measure used in Steeger et al. (2021), was developed in Zhang et al. (2013). The intent of that paper was to develop a non-parametric measure for clumpiness in data. Clumpiness is defined as irregular clusters of data together. Part of the motivation of the Zhang et al. (2013) paper was to create a more powerful statistical measure of clumpiness, in response to the measurement used by Gilovich et al. (1985). One of the advantages in our view of the measure developed by Zhang et al. (2013) is the continuity property. Small changes in the timing of an event have limited effects on the measure. This stands in contrast to a Wald-Wolfowitz run tests which focuses on consecutive sequences of data. For our purposes, the continuity process is important, because in our view the difference between an 8-0 run and a 10-2 run is negligible. 
 
-## Methodology
+## 3 Methodology
+
+To determine whether scores in a basketball game are clumpier, meaning that a teams points are “clumped” together as they go on and allow runs, than random we use the scaled entropy measure described in Zhang et al. (2014), which is a scaled version of the 2013 measure, due to basketball’s non-fixed number of scoring plays. To calculate entropy we first make two transformations to the data, the first is converting from game-time to what we call score-time. The second is to convert score margin changes into a binary home score variable.  Figure 1, gives a visual intuition, which shows the process of first converting score-margin into binary scoring events and then rescaling the time based on number of scoring events. 
 
 **IMAGE**
-
-We use a scaled entropy measure from Zhang et al. (2014). This requires two transformations:<br/>
-1. Convert game-time to **score-time**<br/>
-2. Convert score margin changes to binary outcomes<br/><br/>
-
-### Definitions
 
 Let \( t \in [0, T] \) be game time. Define:
 
