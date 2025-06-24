@@ -113,36 +113,52 @@ $$
 \tilde{x}_i = \frac{x_i}{N + 1}
 $$
 
+Such that
+
 $$
 \sum_{i=1}^{n+1} \tilde{x}_i = 1
 $$
 
-Entropy:
+Finally, the normalized entropy (Steeger et al., 2021) is given by
 
 $$
 H_p = \frac{\sum_{i=1}^{n+1} \tilde{x}_i \log(\tilde{x}_i)}{\log(n + 1)}
 $$
 
-### Simulation Approaches
+Although higher values indicate more “momentum” and suggesting the alternative, this value remains somewhat meaningless by itself. As such, we bootstrap a p-value at a game level by randomly simulating each game 10,000 times and building the distribution for the testing of the null hypothesis.
+
+In our context, the Steeger et al. (2021) method would use end of game scoring event ratio to simulate each game.
 
 - **Frequency-based**:  
   $$ p_s^g = \frac{S_h^g}{S_h^g + S_a^g} $$
 
-- **Markovian ("loser's ball")**:
+Where $S_h^g$ is the number of scoring events in a given game $g$ for the home team $h$ and $S_a^g$ is the number of scoring events for the same game, for the home team $a$. Thus the $p_s^g$ is the probability for a given game that the home team is the scorer of the next scored basket, as in not the next shot, but the next scoring event. It can also be thought of as the relative scoring-event share of the home team for any given game $g$.
 
-  $$
-  p_h = P(S_h | H), \quad p_a = P(S_a | A)
-  $$
+An alternative method would account for the “self-balancing” nature of basketball. The rule referred to in basketball as “loser’s ball” essentially means that the team that just allowed a scoring event receives possession of the ball. Other sports, like volleyball, have “winner’s ball”, but these sports tend to have disadvantages associated with possession. The fundamental insight is that professional sports’ rules seem to be designed to increase competition and thereby decrease momentum by facilitating a “back-and-forth” scoring pattern presumably to make the product more entertaining to watch.
 
-  Transition matrix:
+In order to bootstrap with this insight, we use a first-order Markov chain, similar to the method used in Albright’s (1993) analysis of hitting streaks. The probability that a given team scores, given the state that they previously score is
 
-  $$
-  M =
-  \begin{bmatrix}
-  p_h & 1 - p_h \\
-  1 - p_a & p_a
-  \end{bmatrix}
-  $$
+**Markovian ("loser's ball")**:
+
+$$
+p_h = P(S_h | H), \quad p_a = P(S_a | A)
+$$
+
+Higher levels of p_h suggest that the home team was better at scoring given they had just scored. Further, if p_h > p_s it would suggest that having previously scored made the home team more likely to score again than their base likelihood of scoring. 
+and… 
+
+$$
+p_AH = 1 - p_h = 1 - P(S_h | H), \quad p_HA = 1 - p_a = 1 - P(S_a | A)
+$$
+
+
+$$
+M =
+\begin{bmatrix}
+p_h & 1 - p_h \\
+1 - p_a & p_a
+\end{bmatrix}
+$$
 
 Blended approach:
 
