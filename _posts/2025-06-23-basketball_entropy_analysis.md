@@ -2,9 +2,7 @@
 layout: post
 title: "Momentum in Basketball: A Statistical Entropy Analysis"
 subtitle: "Do Runs Actually Exist in the NBA?"
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [basketball, analytics, entropy, statistics]
+tags: [Prose, Sports Analytics, Statistics]
 comments: true
 mathjax: true
 author: Harrison Waddell, Ismail Abdelmalek, and Charles Johnson
