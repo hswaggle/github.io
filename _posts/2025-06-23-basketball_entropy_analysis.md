@@ -226,27 +226,37 @@ $$
 \lambda^* = \arg\max_{\lambda} \ln(L(\lambda)) = 0.249
 $$
 
-The estimated value of $\lambda^*$, obtained via maximum likelihood estimation, is $\lambda^*=0.249$. This suggests that scoring orders are primarily driven by the loser’s ball effect. An important limitation of this finding is that it applies to NBA games. In less competitive leagues we expect the importance of $p_s$ to be significantly higher, but amongst the best players in the world, the relative strength differences of teams is too small to overpower the balancing effect of the loser’s ball rule. 
+The estimated value of $\lambda^* $, obtained via maximum likelihood estimation, is $\lambda^*=0.249$ . This suggests that scoring orders are primarily driven by the loser’s ball effect. An important limitation of this finding is that it applies to NBA games. In less competitive leagues we expect the importance of $p_s$ to be significantly higher, but amongst the best players in the world, the relative strength differences of teams is too small to overpower the balancing effect of the loser’s ball rule. 
 
 ## 5 Analysis
 
 Using entropy as our measure, we considered all games in the 2019-20 season from the home team’s perspective. We find that the majority of games are not statistically significant, but that most teams have somewhere between 1-4 statistically significant games with momentum in a given season. With 1230 total observations, and only 50 statistically significant observations, our primary concern was that we had a multiple compairisons problem. 
 
+![entropy]({{ '/assets/img/entropy.png' | relative_url }}){: .mx-auto.d-block :}
 
+Our first approach to determining at a season level, whether there is evidence of statistical significance was to bootstrap a seasons worth of entropy values. We can see visually, that there is little differences between the two distributions. 
 
-### Mann-Whitney U Test
+![Mann-Whitney]({{ '/assets/img/mann.png' | relative_url }}){: .mx-auto.d-block :}
 
+We then compared these distributions using a Mann-Whitney U test. 
 - **U-statistic:** 970.0  
 - **P-value:** 0.4337
+Thus on this measure there is no statistical difference between our hypothesis of momentum in basketball and the null hypothesis of no momentum.
 
 > {: .box-warning}
 > No season-level evidence for momentum exists.
 
-## Discussion and Results
+## 6 Discussion and Results
 
-**IMAGE**
+With the rise of analytics in professional sports and the perseverance of fan misconceptions, we have returned to a classic question at the heart of sports analytics. In this paper, we have explored a novel method for determining data clumpiness. We found 50 of 1230 games with statistically significant momentum. With that many observations, we wanted to avoid a multiple-comparisons problem. Thus, we randomly sampled from the bootstrapped game distribution to bootstrap a season distribution, which we compared to the season’s true distribution.  We found no evidence at a season level of statistical difference between our hypothesis of momentum and the null hypothesis of no momentum. 
 
-Despite the persistent fan belief, statistical evidence for momentum remains elusive...<br/><br/>
+Many areas of further research have piqued our interest in this process. One such area is whether the games that do have statistically significant entropy are experiencing randomness derived entropy or whether, on account of some knowable quantity these games experience momentum derived entropy. Two such ideas present themselves. Whether blowouts are correlated to statistical entropy, and whether timeouts have a dilutive effect to statistical momentum, as the fans and the pundits from our opening paragraph might have you believe. 
+
+Further, we can view the changes in entropy and statistical significance at a play by play level (though computationally expensive), which may have managerial implications that might be derived midgame. One such is when to call timeouts. 
+
+![Timeouts]({{ '/assets/img/timeouts.png' | relative_url }}){: .mx-auto.d-block :}
+
+Another area of exploration would be to compare momentum with different seasons’ datasets to see if and what direction the sport is moving in terms of momentum. 
 
 <details markdown="1">
 <summary>Further Questions</summary><br/>
@@ -257,9 +267,18 @@ Despite the persistent fan belief, statistical evidence for momentum remains elu
 
 ## Bibliography
 
-See original sources including:<br/>
-- Gilovich et al. (1985), *The Hot Hand in Basketball*<br/>
-- Bocskocsky et al. (2014), *Heat Check*<br/>
-- Zhang et al. (2013), *New Measures of Clumpiness*<br/>
-- Steeger et al. (2021), *Entropy in NHL*<br/>
-- And many more...
+<details markdown="1">
+<summary>Sources</summary><br/>
+  Albright, S. C. (1993). A Statistical Analysis of Hitting Streaks in Baseball. Journal of the American Statistical Association, 88(424), 1175–1183. https://doi.org/10.1080/01621459.1993.10476395
+  Arkes, J., & Martinez, J. (2011). Finally, Evidence for a Momentum Effect in the NBA. Journal of Quantitative Analysis in Sports, 7(3). https://doi.org/10.2202/1559-0410.1304 
+  Avugos, S., Köppen, J., Czienskowski, U., Raab, M., & Bar-Eli, M. (2013). The “hot hand” reconsidered: A meta-analytic approach. Psychology of Sport and Exercise, 14(1), 21–27. https://doi.org/10.1016/j.psychsport.2012.07.005
+  Bar-Eli, M., Avugos, S., & Raab, M. (2006). Twenty years of “hot hand” research: Review and critique. Psychology of Sport and Exercise, 7(6), 525–553. https://doi.org/10.1016/j.psychsport.2006.03.001 
+  Bocskocsky, A., Ezekowitz, J., & Stein, C. (2014). Heat Check: New Evidence on the Hot Hand in Basketball. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2481494 
+  David, F. N. (1949). Probability Theory for Statistical Methods. Legare Street Press. 
+  Gilovich, T., Vallone, R., & Tversky, A. (1985). The hot hand in basketball: On the misperception of random sequences. Cognitive Psychology, 17(3), 295–314. https://doi.org/10.1016/0010-0285(85)90010-6 
+  Reifman, A. (2011). Hot Hand. Potomac Books, Inc. 
+  Schilling, M., 2019, Is basketball a game of runs? arXiv. Retrieved from https://arxiv.org/abs/1903.08716 
+  Steeger, G. M., Dulin, J. L., & Gonzalez, G. O. (2021). Winning and losing streaks in the National Hockey League: are teams experiencing momentum or are games a sequence of random events? Journal of Quantitative Analysis in Sports, 17(3), 155–170. https://doi.org/10.1515/jqas-2020-0077 
+  Wolfowitz. J. (1943). On the Theory of Runs with some Applications to Quality Control. Annals of Mathematical Statistics, 14(3), 280–288. https://doi.org/10.1214/aoms/1177731421 
+  Zhang, Y., Bradlow, E. T., & Small, D. S. (2013). New measures of clumpiness for incidence data. Journal of Applied Statistics 40(11), 2533–2548. https://doi.org/10.1080/02664763.2013.818627 
+</details>
