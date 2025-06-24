@@ -110,7 +110,11 @@ Now $N$ is 9, $n$ is 2, $x_1$ is 2, $x_2$ is 2, $x_3$ is 5. Here we see the $x_(
 To standardize across different games, we compute scaled $\tilde{x}_i$ 
 
 $$
-\tilde{x}_i = \frac{x_i}{N + 1}, \quad \sum_{i=1}^{n+1} \tilde{x}_i = 1
+\tilde{x}_i = \frac{x_i}{N + 1}
+$$
+
+$$
+\sum_{i=1}^{n+1} \tilde{x}_i = 1
 $$
 
 Entropy:
