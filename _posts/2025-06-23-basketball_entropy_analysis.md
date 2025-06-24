@@ -80,8 +80,9 @@ $$
 \tau = N(t) = N
 $$
 
-
-Inter-event times \( x_i \):
+Where $N$ is the total number of scoring events in a game. 
+With this score-time $\tau$ we can determine the inter-event time between home scores. 
+Let $x_i$ be the inter-event time of the $i$th 
 
 $$
 x_i =
@@ -92,7 +93,21 @@ N + 1 - \tau_n, & i = n+1
 \end{cases}
 $$
 
-Normalized:
+Where $n$ is the total number of home scores and $N$ is still total number of scores. To briefly add intuition, the Toronto Raptors ($A$) played the Philadelphia 76ers ($H$) in Philadelphia on February 11th 2025. The first ten scores of the game went as follows
+
+$$
+A H A H A A A A A H
+$$
+
+$N$ is 10, $n$ is 3, $x_1$ is 2, $x_2$ is 2, $x_3$ is 6, and $x_4$ is 1. In this sequence the importance of $x_(n+1)$ is not best exemplified. Part of the usefulness of the entropy measure is that its evolution can be tracked throughout a game. Returning to our Raptors game, the first nine scores
+
+$$
+A H A H A A A A A
+$$
+
+Now $N$ is 9, $n$ is 2, $x_1$ is 2, $x_2$ is 2, $x_3$ is 5. Here we see the $x_(n+1)$ essentially closes the last run. 	
+
+To standardize across different games, we compute scaled $\tilde{x}_i$ 
 
 $$
 \tilde{x}_i = \frac{x_i}{N + 1}, \quad \sum_{i=1}^{n+1} \tilde{x}_i = 1
