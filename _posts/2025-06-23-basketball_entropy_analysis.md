@@ -44,15 +44,21 @@ The entropy measure used in Steeger et al. (2021), was developed in Zhang et al.
 
 To determine whether scores in a basketball game are clumpier, meaning that a teams points are “clumped” together as they go on and allow runs, than random we use the scaled entropy measure described in Zhang et al. (2014), which is a scaled version of the 2013 measure, due to basketball’s non-fixed number of scoring plays. To calculate entropy we first make two transformations to the data, the first is converting from game-time to what we call score-time. The second is to convert score margin changes into a binary home score variable.  Figure 1, gives a visual intuition, which shows the process of first converting score-margin into binary scoring events and then rescaling the time based on number of scoring events. 
 
-![games]({{ '/assets/img/transformations.svg' | relative_url }})
+![games]({{ '/assets/img/transformations.png' | relative_url }})
 
-Let \( t \in [0, T] \) be game time. Define:
+Let $t$ represent game-time where
+
+$$
+t \in [0,T]
+$$
+
+And $T$ is the total game duration. Let $H(t)$, $A(t)$ and $S(t)$ be the home score, the away score and the score margin at time $t$ where 
 
 $$
 S(t) = H(t) - A(t)
 $$
 
-Indicator function:
+We define an indicator function
 
 $$
 \mathbf{1}_{\Delta S(t)} =
@@ -62,11 +68,18 @@ $$
 \end{cases}
 $$
 
-Score-time:
+And rescale time to score-time $\tau \in [0,N]$
 
 $$
 \tau = N(t) = \sum_{i=1}^{t} \mathbf{1}_{\Delta S(i)}
 $$
+
+Such that at game-time T
+
+$$
+\tau = N(t) = N
+$$
+
 
 Inter-event times \( x_i \):
 
