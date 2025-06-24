@@ -20,7 +20,7 @@ On June 10, 2019, the Toronto Raptors played the Golden State Warriors in Game 5
 The majority of the literature has been in opposition to statistical momentum, and in fact the rules are specifically designed to increase parity. For instance, all of soccer, American football and basketball award possession of the ball to the team which has just allowed a score, in a process commonly known as “loser’s ball”. Given that ball possession is generally required to score in these sports, preventing a dominant team from immediately capitalizing on their success should make it harder for teams to score consecutively and hence gain momentum.
 Yet the sentiment of the opening paragraph prevails time and again. Why? Analyzing the score margins for a few games, the general game pattern seems to empirically align with this sentiment. Of course, this is not a statistical approach, but it provides a visual intuition for why we as humans so often perceive momentum, despite both the mean reverting nature of the game and the long-standing literature disproving this notion. 
 
-![games]({{ '/assets/img/Sample Games pbp.png' | relative_url }})
+![games]({{ '/assets/img/Sample Games pbp.png' | relative_url }}){: .mx-auto.d-block :}
 
 This question has resurged in importance as analytics have become more popular in professional sports. The impact of better decision making could be making the game more momentum driven or less; either way, one thing is sure, the basketball of today's NBA is not the same as that of Gilovich, Vallone, and Tversky’s NBA. 
 This paper employs a somewhat novel entropy measure of team wide momentum to test scoring event runs in the course of the game. Our innovation is a novel approach to bootstrapping the null hypothesis distribution of hyper-parameter values, which is a MLE weighted combination of the traditional frequency method, and a Markovian transition approach we call the Loser’s ball effect.
@@ -44,7 +44,7 @@ The entropy measure used in Steeger et al. (2021), was developed in Zhang et al.
 
 To determine whether scores in a basketball game are clumpier, meaning that a teams points are “clumped” together as they go on and allow runs, than random we use the scaled entropy measure described in Zhang et al. (2014), which is a scaled version of the 2013 measure, due to basketball’s non-fixed number of scoring plays. To calculate entropy we first make two transformations to the data, the first is converting from game-time to what we call score-time. The second is to convert score margin changes into a binary home score variable.  Figure 1, gives a visual intuition, which shows the process of first converting score-margin into binary scoring events and then rescaling the time based on number of scoring events. 
 
-![games]({{ '/assets/img/transformations.png' | relative_url }})
+![games]({{ '/assets/img/transformations.png' | relative_url }}){: .mx-auto.d-block :}
 
 Let $t$ represent game-time where
 
@@ -129,8 +129,11 @@ Although higher values indicate more “momentum” and suggesting the alternati
 
 In our context, the Steeger et al. (2021) method would use end of game scoring event ratio to simulate each game.
 
-- **Frequency-based**:  
-  $$ p_s^g = \frac{S_h^g}{S_h^g + S_a^g} $$
+**Frequency-based**:
+
+$$
+p_s^g = \frac{S_h^g}{S_h^g + S_a^g}
+$$
 
 Where $S_h^g$ is the number of scoring events in a given game $g$ for the home team $h$ and $S_a^g$ is the number of scoring events for the same game, for the home team $a$. Thus the $p_s^g$ is the probability for a given game that the home team is the scorer of the next scored basket, as in not the next shot, but the next scoring event. It can also be thought of as the relative scoring-event share of the home team for any given game $g$.
 
@@ -151,6 +154,7 @@ $$
 p_AH = 1 - p_h = 1 - P(S_h | H), \quad p_HA = 1 - p_a = 1 - P(S_a | A)
 $$
 
+The transition matrix $M$ is given by $
 
 $$
 M =
@@ -160,7 +164,13 @@ p_h & 1 - p_h \\
 \end{bmatrix}
 $$
 
-Blended approach:
+Where $P_HH$  is the probability of Home scoring (first $H$) given a previous state of home scored (second $H$). 
+With this transition matrix, we adjust for the self-correcting nature of basketball. It is important to note because we are looking to capture the effect of a rule, we calculate this matrix at a season wide level, though in practice our implementation sums the transitions at a game level to build the season level matrix. 
+
+The best bootstrapping method would have a combined probability that considers both the self-correcting nature of basketball, that we call the “losers’ ball” effect, and the overall balance of the individual games scoring events, so that the final scoring event distribution resembles that of the actual game played and isolates the potential differences in process to get to this final result. 
+
+To do this, we define $\lambda \in [0,1]$ a weighing factor. Where $\lambda=1$ weights the probability entirely to the games scoring event ratio, and $\lambda=0$ weights the probability entirely to the loser’s ball effect. One important note, where the pure Markov approach was defined by season level parameters only, whereas the incorporation of $\lambda$ leads to a blend of season level parameters and game level variables. 
+Incorporating the weighting factor  
 
 $$
 P_{HH}^g = \lambda p_s^g + (1 - \lambda)p_h
@@ -170,7 +180,15 @@ $$
 P_{AA}^g = \lambda (1 - p_s^g) + (1 - \lambda)p_a
 $$
 
-**IMAGE**
+$$
+\dotM =
+\begin{bmatrix}
+p_h & 1 - p_h \\
+1 - p_a & p_a
+\end{bmatrix}
+$$
+
+
 
 ## Parameter Estimation
 
