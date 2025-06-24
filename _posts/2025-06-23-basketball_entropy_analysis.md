@@ -2,6 +2,9 @@
 layout: post
 title: "Momentum in Basketball: A Statistical Entropy Analysis"
 subtitle: "Do Runs Actually Exist in the NBA?"
+cover-img: /assets/img/entropy.png
+thumbnail-img: /assets/img/entropy.png
+share-img: /assets/img/entropy.png
 tags: [Prose, Sports Analytics, Statistics]
 comments: true
 mathjax: true
