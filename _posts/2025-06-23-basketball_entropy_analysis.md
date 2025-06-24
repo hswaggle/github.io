@@ -203,9 +203,14 @@ The following figure demonstrates the effect $\lambda$ of on the bootstrapped di
 The effect of $\lambda$ at different levels is quite interesting. For good teams, say $p_s=0.6$ the loser’s ball effect decreases the expected amount of entropy. In effect, if a team is better than the loser’s ball effect, then low $\lambda$ values have a dilutive effect.  The opposite is true for mediocre and bad teams. 
 
 
-## Parameter Estimation
+## 4 Parameter Estimation
 
-Maximum likelihood estimation for \( \lambda \):
+It is clear that both $\lambda$ and $p_s$ are crucial to accurately simulating games for bootstrapped significance levels. 
+To better understand the importance of $p_s$  we plotted each teams game values of $p_s$ and their total home wins in the season. The pearson correlation coefficient was 0.6929. This aligns with our intuition that better teams in general win with a greater share of the scoring events. The width of each teams distribution provides visual intuition for the difficulty of consistent performance in a commodity scoring commodity game league. 
+
+![p_s]({{ '/assets/img/ps.png' | relative_url }}){: .mx-auto.d-block :}
+
+$p_s$ is a empirical observation, The level of $\lambda$ clearly makes a meaningful impact on the statistical threshold, and is not observed. Thus it is important that we use a grounded estimate. We used a maximum likelihood estimation approach. We define a log likelihood function of $\lambda$,
 
 $$
 \ln(L(\lambda)) = \sum_{g=1}^{G} \ln(L_g(\lambda)) =
@@ -217,15 +222,19 @@ N_{AA}^g \ln(P_{AA}^g)
 \right]
 $$
 
-Result:
+Finally we optimize for $\lambda^*$
 
 $$
 \lambda^* = \arg\max_{\lambda} \ln(L(\lambda)) = 0.249
 $$
 
-## Analysis
+The estimated value of $\lambda^*$, obtained via maximum likelihood estimation, is $\lambda^*=0.249$. This suggests that scoring orders are primarily driven by the loser’s ball effect. An important limitation of this finding is that it applies to NBA games. In less competitive leagues we expect the importance of $p_s$ to be significantly higher, but amongst the best players in the world, the relative strength differences of teams is too small to overpower the balancing effect of the loser’s ball rule. 
 
-We applied the entropy measure to all games in the 2019–20 season. Out of 1230 games, only 50 were statistically significant.<br/><br/>
+## 5 Analysis
+
+Using entropy as our measure, we considered all games in the 2019-20 season from the home team’s perspective. We find that the majority of games are not statistically significant, but that most teams have somewhere between 1-4 statistically significant games with momentum in a given season. With 1230 total observations, and only 50 statistically significant observations, our primary concern was that we had a multiple compairisons problem. 
+
+
 
 ### Mann-Whitney U Test
 
