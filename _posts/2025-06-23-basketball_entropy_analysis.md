@@ -15,19 +15,17 @@ This paper explores whether momentum exists in professional basketball through a
 
 ## 1 Introduction
 
-**IMAGE**
-
 On June 10, 2019, the Toronto Raptors played the Golden State Warriors in Game 5 of the NBA Finals. The Raptors lead the series 3-1 and were looking to raise the Larry O’Brien Championship trophy in front of a home crowd for the first time ever on Canadian soil. The Raptors trailed most of the game, and at the beginning of the fourth quarter, they were down by 6 points. After a back-and-forth exchange of baskets in the first 5 and a half minutes of the quarter, the Raptors click into gear. Kawhi Leonard scored 4 straight baskets interrupted only once by a Draymond two-pointer to take a 6 point lead, the Raptors' first lead since the first quarter. With 3:28 left on the clock, all of Canada can taste its first championship. After a missed three-point attempt by Steph Curry, the Raptors regain possession with 3:12 to go. Suddenly, with the ball in Kawhi’s hands, the unthinkable: Raptors’ floor general Kyle Lowry calls a full timeout. Fans and pundits alike groan. You simply don’t call a timeout when you are hot. When the Raptors return to the floor, the energy is different. Kawhi misses an 11-footer, Klay drains a three, Lowry misses the retribution three, Curry hits another three, Kawhi misses a three, Klay hits another three, Nurse calls another timeout, presumably to stop the Warriors' run. The score is now 106-103. When they return to the floor, Lowry scores the Raptors' final basket of the game a goaltended layup. The Warriors survive game 5. 
 “Basketball is a game of runs”. Those familiar with the sport will have heard this before, and not just from fans, but coaches and announcers. The truth of the statement has been a matter of academic discourse since at least 1985, when Thomas Gilovich, Robert Vallone and Amos Tversky published the first evidence for the opposition. In the 4 decades since, many academics have chimed in with their own evidence for and against. 
 The majority of the literature has been in opposition to statistical momentum, and in fact the rules are specifically designed to increase parity. For instance, all of soccer, American football and basketball award possession of the ball to the team which has just allowed a score, in a process commonly known as “loser’s ball”. Given that ball possession is generally required to score in these sports, preventing a dominant team from immediately capitalizing on their success should make it harder for teams to score consecutively and hence gain momentum.
 Yet the sentiment of the opening paragraph prevails time and again. Why? Analyzing the score margins for a few games, the general game pattern seems to empirically align with this sentiment. Of course, this is not a statistical approach, but it provides a visual intuition for why we as humans so often perceive momentum, despite both the mean reverting nature of the game and the long-standing literature disproving this notion. 
 
-
+![games]({{ '/assets/img/Sample Games pbp.png' | relative_url }})
 
 This question has resurged in importance as analytics have become more popular in professional sports. The impact of better decision making could be making the game more momentum driven or less; either way, one thing is sure, the basketball of today's NBA is not the same as that of Gilovich, Vallone, and Tversky’s NBA. 
 This paper employs a somewhat novel entropy measure of team wide momentum to test scoring event runs in the course of the game. Our innovation is a novel approach to bootstrapping the null hypothesis distribution of hyper-parameter values, which is a MLE weighted combination of the traditional frequency method, and a Markovian transition approach we call the Loser’s ball effect.
 
-> **Note:** "Basketball is a game of runs." — A common sentiment explored in this paper.
+> **Note:** "Basketball is a game of runs." — This was the notion we went into the paper convinved of, in essence meaning that teams go on momentum driven runs.
 
 ## 2 Literature Review
 
@@ -46,7 +44,7 @@ The entropy measure used in Steeger et al. (2021), was developed in Zhang et al.
 
 To determine whether scores in a basketball game are clumpier, meaning that a teams points are “clumped” together as they go on and allow runs, than random we use the scaled entropy measure described in Zhang et al. (2014), which is a scaled version of the 2013 measure, due to basketball’s non-fixed number of scoring plays. To calculate entropy we first make two transformations to the data, the first is converting from game-time to what we call score-time. The second is to convert score margin changes into a binary home score variable.  Figure 1, gives a visual intuition, which shows the process of first converting score-margin into binary scoring events and then rescaling the time based on number of scoring events. 
 
-**IMAGE**
+![games]({{ '/assets/img/transformations.svg' | relative_url }})
 
 Let \( t \in [0, T] \) be game time. Define:
 
