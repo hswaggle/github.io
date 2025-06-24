@@ -1,4 +1,14 @@
-Mapping the network of Guillotine Victims:  
+---
+layout: post
+title: Children of the Revolution
+subtitle: Mapping the interelated network of Guillotine Victims
+cover-img: /assets/img/cover.jpg
+thumbnail-img: /assets/img/cover.jpg
+share-img: /assets/img/cover.jpg
+tags: [poetry]
+author: Harrison Waddell
+---
+
 ![][image1]  
 With the execution of Louis XVI, our first edge is formed. Arnaud II de la Porte, who aided the King in the flight to Varennes, was the second victim of the Guillotine. Before his death, La Porte, was one of the King’s most trusted advisors \- managing the personal wealth of the King.  
 ![][image2]
