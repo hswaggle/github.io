@@ -44,7 +44,7 @@ The entropy measure used in Steeger et al. (2021), was developed in Zhang et al.
 
 To determine whether scores in a basketball game are clumpier, meaning that a teams points are “clumped” together as they go on and allow runs, than random we use the scaled entropy measure described in Zhang et al. (2014), which is a scaled version of the 2013 measure, due to basketball’s non-fixed number of scoring plays. To calculate entropy we first make two transformations to the data, the first is converting from game-time to what we call score-time. The second is to convert score margin changes into a binary home score variable.  Figure 1, gives a visual intuition, which shows the process of first converting score-margin into binary scoring events and then rescaling the time based on number of scoring events. 
 
-![games]({{ '/assets/img/transformations.png' | relative_url }}){: .mx-auto.d-block :}
+![transformations]({{ 'assets/img/transformation.png' | relative_url }}){: .mx-auto.d-block :}
 
 Let $t$ represent game-time where
 
