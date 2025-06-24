@@ -154,7 +154,7 @@ $$
 p_AH = 1 - p_h = 1 - P(S_h | H), \quad p_HA = 1 - p_a = 1 - P(S_a | A)
 $$
 
-The transition matrix $M$ is given by $
+The transition matrix $M$ is given by
 
 $$
 M =
@@ -180,14 +180,27 @@ $$
 P_{AA}^g = \lambda (1 - p_s^g) + (1 - \lambda)p_a
 $$
 
+The now game level transition matrix $\dot{M}^g$ is given by 
+
 $$
-\dotM =
+\dot{M}^g =
 \begin{bmatrix}
-p_h & 1 - p_h \\
-1 - p_a & p_a
-\end{bmatrix}
+P_{HH}^g & P_{HA}^g \\
+P_{AH}^g & P_{AA}^g
+\end{bmatrix} =
+\begin{bmatrix}
+\lambda p_s^g + (1 - \lambda)p_h & 1 - \lambda p_s^g + (1 - \lambda)p_h \\
+1 - \lambda (1 - p_s^g) + (1 - \lambda)p_a & \lambda (1 - p_s^g) + (1 - \lambda)p_a
+\end{bmatrix} 
 $$
 
+To better understand the significance of the $\lambda$ parameter, we bootstrapped entropy distributions at different levels of $\lambda$ in increments of $0.1$ based on  $p_s \in {0.4,0.5,0.6}$ representing, a bad, average, and good team respectively. 
+
+The following figure demonstrates the effect $\lambda$ of on the bootstrapped distribution and resulting statistical significance level. 
+
+![lambdas]({{ '/assets/img/lambdas.png' | relative_url }}){: .mx-auto.d-block :}
+
+The effect of $\lambda$ at different levels is quite interesting. For good teams, say $p_s=0.6$ the loser’s ball effect decreases the expected amount of entropy. In effect, if a team is better than the loser’s ball effect, then low $\lambda$ values have a dilutive effect.  The opposite is true for mediocre and bad teams. 
 
 
 ## Parameter Estimation
