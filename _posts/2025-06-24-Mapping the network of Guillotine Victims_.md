@@ -2,12 +2,37 @@
 layout: post
 title: Children of the Revolution
 subtitle: Mapping the interelated network of Guillotine Victims
-cover-img: /assets/img/cover.jpg
-thumbnail-img: /assets/img/cover.jpg
-share-img: /assets/img/cover.jpg
+cover-img: /assets/img/image6.png
+thumbnail-img: /assets/img/image6.png
+share-img: /assets/img/image6.png
 tags: [poetry]
 author: Harrison Waddell
 ---
+
+I have been oddly fascinated by the French Revolution lately. My Friend Ismail, sent me a copy of *The Oxford History of the French Revolution* by William Doyle, which sparked my interest, which I supplemented with *Revolutions* by Mike Duncan. At the same time, I have been interested in Network Theory for a while. Finally, I read Edward Tufte's *The Visual Display of Quantitative information*, while working on the entropy paper. The relation between these three things is probably unclear.
+
+While exploring the NetworkX python library, I came accross this visualization in the gallery. 
+![Napoleon]({{ 'assets/img/napoleon1.png' | relative_url }}){: .mx-auto.d-block :}
+
+At first I was not sure what was going on, the data provided in the example linked to a internet archive page from 2016, that was exclusively data - without any context. However, a quick bit of internet sleuthing led me to Edward Tufte's website. It turns out, this networkX gallery image was a recreation of what Tufte described as "probably the best statistical graph ever drawn". Of course the networkX version was cool enough to catch my eye, but certainly not the best graph ever drawn. 
+
+This map however, the original by Charles Joseph Minard, made in 1869 (well into Minards 80s), certainly lives up to the description.  
+![Napoleon]({{ 'assets/img/minard.jpg' | relative_url }}){: .mx-auto.d-block :}
+
+Thus I did my best to more faithfully recreate the graph, at least the part that I had data to do. It took some iterations, but I was able to recreate something that while it pales in compairison, I am proud of. 
+
+![Napoleon]({{ 'assets/img/napoleon2.png' | relative_url }}){: .mx-auto.d-block :}
+
+Happy with my finished product, it occured to me that there might be more to explore with this library and the french revolution. One often repeated phrase in Mike Duncan's revolutions is to some effect or another, that the revolution ate it's own children. In the wake of the Women's March on Versaille, as the National Constituent Assembly followed the King to Paris, the members previously gathered and coloc'ed by province and geography, found housing and seating based on ideology. Creating potentially the first analog echo chambers. What became of the revolution is certainly a direct consequence of this, but also as a result the revolutions most notable victims we're often very interconnected. 
+
+Thus with this in mind I began seeing in my mind an animation of the ever expanding network of victims of the revolution, otherwise put I saw a map of the eaten children of the revolution. The original working title for this exploration was *the children eaten along the way*, but it seemed far too grim without context that makes it only slightly less grim. 
+
+THe data for this map, was not easy to come by. It required learning SPARQL, Wikipedia's query language, not too difficult as it is quite similiar to SQL. Figuring out that it would probably be easier to just scrape wikipedia, looking for corresponding links. Finding a list of guillotine victims with wikipedia pages, supplementing it with political factions and death dates. In the end, the end product is directionally correct, but is far from exhaustive, and certainly picks up historical connections more accurately then contemporary relationships. 
+
+It is however still a very cool way of walking through the key years of the first era of the revolution. 
+
+Thus...
+
 ![Network]({{ 'assets/img/image2.png' | relative_url }}){: .mx-auto.d-block :}
 
 With the execution of Louis XVI, our first edge is formed. Arnaud II de la Porte, who aided the King in the flight to Varennes, was the second victim of the Guillotine. Before his death, La Porte, was one of the King’s most trusted advisors \- managing the personal wealth of the King.  
