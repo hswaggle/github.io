@@ -12,16 +12,16 @@ author: Harrison Waddell
 I have been oddly fascinated by the French Revolution lately. My Friend Ismail, sent me a copy of *The Oxford History of the French Revolution* by William Doyle, which sparked my interest, which I supplemented with *Revolutions* by Mike Duncan. At the same time, I have been interested in Network Theory for a while. Finally, I read Edward Tufte's *The Visual Display of Quantitative information*, while working on the entropy paper. The relation between these three things is probably unclear.
 
 While exploring the NetworkX python library, I came accross this visualization in the gallery. 
-![Napoleon]({{ 'assets/img/napoleon1.png' | relative_url }}){: .mx-auto.d-block :}
+![Napoleon]({{ 'assets/img/napoleon 1.png' | relative_url }}){: .mx-auto.d-block :}
 
 At first I was not sure what was going on, the data provided in the example linked to a internet archive page from 2016, that was exclusively data - without any context. However, a quick bit of internet sleuthing led me to Edward Tufte's website. It turns out, this networkX gallery image was a recreation of what Tufte described as "probably the best statistical graph ever drawn". Of course the networkX version was cool enough to catch my eye, but certainly not the best graph ever drawn. 
 
 This map however, the original by Charles Joseph Minard, made in 1869 (well into Minards 80s), certainly lives up to the description.  
-![Napoleon]({{ 'assets/img/minard.jpg' | relative_url }}){: .mx-auto.d-block :}
+![Napoleon]({{ 'assets/img/Minard.jpg' | relative_url }}){: .mx-auto.d-block :}
 
 Thus I did my best to more faithfully recreate the graph, at least the part that I had data to do. It took some iterations, but I was able to recreate something that while it pales in compairison, I am proud of. 
 
-![Napoleon]({{ 'assets/img/napoleon2.png' | relative_url }}){: .mx-auto.d-block :}
+![Napoleon]({{ 'assets/img/napoleon 2.png' | relative_url }}){: .mx-auto.d-block :}
 
 Happy with my finished product, it occured to me that there might be more to explore with this library and the french revolution. One often repeated phrase in Mike Duncan's revolutions is to some effect or another, that the revolution ate it's own children. In the wake of the Women's March on Versaille, as the National Constituent Assembly followed the King to Paris, the members previously gathered and coloc'ed by province and geography, found housing and seating based on ideology. Creating potentially the first analog echo chambers. What became of the revolution is certainly a direct consequence of this, but also as a result the revolutions most notable victims we're often very interconnected. 
 
