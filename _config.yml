@@ -24,7 +24,9 @@ navbar-links:
     - prose: "prose"
     - poetry: "poetry"
     - translations: "translations"
-  Art: "art"
+  Art: 
+    - gallery: "gallery"
+    - posts: "posts"
   Curation of the Web:
     - Everynoise: "https://everynoise.com/"
     - Anna's Archive: "https://annas-archive.org/"
