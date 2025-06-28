@@ -3,10 +3,16 @@ layout: page
 title: Prose
 permalink: /prose/
 ---
-
-<div class="feed-posts">
-  {% for post in site.posts %}
-    <article class="feed-item">
+{% for post in site.posts %}
+  <article class="feed-item d-flex mb-4">
+    {% if post.thumbnail-img %}
+      <div class="flex-shrink-0 me-3" style="max-width: 150px;">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.thumbnail-img | relative_url }}" alt="Thumbnail for {{ post.title }}" class="img-fluid rounded">
+        </a>
+      </div>
+    {% endif %}
+    <div>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       {% if post.subtitle %}
         <h4>{{ post.subtitle }}</h4>
@@ -15,7 +21,7 @@ permalink: /prose/
         {{ post.date | date: "%B %-d, %Y" }}{% if post.author %} — {{ post.author }}{% endif %}
       </p>
       <p>{{ post.excerpt }}</p>
-    </article>
-    <hr />
-  {% endfor %}
-</div>
+    </div>
+  </article>
+  <hr />
+{% endfor %}
