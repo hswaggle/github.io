@@ -2,15 +2,11 @@
 layout: post
 title: Children of the Revolution
 subtitle: Mapping the interelated Network of Guillotine Victims
-cover-img: /assets/img/image6.png
+cover-img: /assets/img/image4.png
 thumbnail-img: /assets/img/image6.png
 share-img: /assets/img/image6.png
 tags: [poetry]
 author: Harrison Waddell
-title-color: "#2F2F2F"
-subtitle-color: "#2F2F2F"
-author-color: "#2F2F2F"
-date-color: "#2F2F2F"
 ---
 
 
