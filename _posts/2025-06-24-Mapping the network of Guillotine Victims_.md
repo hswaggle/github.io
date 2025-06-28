@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '<span class="black">Children of the Revolution</span>'
-subtitle: '<span class="black">Mapping the interelated Network of Guillotine Victims</span>'
+title: Children of the Revolution
+subtitle: Mapping the interelated Network of Guillotine Victims
 cover-img: /assets/img/image6.png
 thumbnail-img: /assets/img/image6.png
 share-img: /assets/img/image6.png
