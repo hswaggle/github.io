@@ -2,7 +2,10 @@
 layout: page
 title: Prose
 permalink: /prose/
----{% for post in site.posts %}
+---
+
+{% assign poetry_posts = site.posts | where_exp: "item", "item.tags contains 'poetry'" %}
+{% for post in poetry_posts %}
   <article class="feed-item d-flex justify-content-between align-items-center mb-4">
     <div class="flex-grow-1 pe-3">
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
