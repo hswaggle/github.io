@@ -9,7 +9,8 @@ tags: [poetry]
 author: Harrison Waddell
 ---
 
-Rushed and Incomplete I.   
+Rushed and Incomplete I.  
+
 It is hard to say if it was love,  
 I guess that’s a word I define myself 
 Still, it’s hard to say that it was, or it wasn’t. 
