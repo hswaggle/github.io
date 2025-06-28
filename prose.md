@@ -4,7 +4,7 @@ title: Prose
 permalink: /prose/
 ---
 
-{% assign poetry_posts = site.posts | where_exp: "item", "item.tags contains 'poetry'" %}
+{% assign poetry_posts = site.posts | where_exp: "item", "item.tags contains 'prose'" %}
 {% for post in poetry_posts %}
   <article class="feed-item d-flex justify-content-between align-items-center mb-4">
     <div class="flex-grow-1 pe-3">
