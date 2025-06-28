@@ -7,6 +7,10 @@ thumbnail-img: /assets/img/image6.png
 share-img: /assets/img/image6.png
 tags: [poetry]
 author: Harrison Waddell
+title-color: "#1a73e8"
+subtitle-color: "#5f6368"
+author-color: "#202124"
+date-color: "#80868b"
 ---
 
 
