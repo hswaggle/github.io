@@ -5,7 +5,7 @@ subtitle: "Do Runs Actually Exist in the NBA?"
 cover-img: /assets/img/entropy.png
 thumbnail-img: /assets/img/entropy.png
 share-img: /assets/img/entropy.png
-tags: [Prose, Sports Analytics, Statistics]
+tags: [prose, sports analytics, statistics]
 comments: true
 mathjax: true
 author: Harrison Waddell, Ismail Abdelmalek, and Charles Johnson
