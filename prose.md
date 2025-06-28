@@ -2,17 +2,9 @@
 layout: page
 title: Prose
 permalink: /prose/
----
-{% for post in site.posts %}
-  <article class="feed-item d-flex mb-4">
-    {% if post.thumbnail-img %}
-      <div class="flex-shrink-0 me-3" style="max-width: 150px;">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.thumbnail-img | relative_url }}" alt="Thumbnail for {{ post.title }}" class="img-fluid rounded">
-        </a>
-      </div>
-    {% endif %}
-    <div>
+---{% for post in site.posts %}
+  <article class="feed-item d-flex justify-content-between align-items-center mb-4">
+    <div class="flex-grow-1 pe-3">
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       {% if post.subtitle %}
         <h4>{{ post.subtitle }}</h4>
@@ -22,6 +14,14 @@ permalink: /prose/
       </p>
       <p>{{ post.excerpt }}</p>
     </div>
+
+    {% if post.thumbnail-img %}
+      <div class="flex-shrink-0" style="max-width: 150px;">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.thumbnail-img | relative_url }}" alt="Thumbnail for {{ post.title }}" class="img-fluid rounded">
+        </a>
+      </div>
+    {% endif %}
   </article>
   <hr />
 {% endfor %}
