@@ -5,7 +5,7 @@ subtitle: Mapping the interelated Network of Guillotine Victims
 cover-img: /assets/img/image4.png
 thumbnail-img: /assets/img/image6.png
 share-img: /assets/img/image6.png
-tags: [poetry]
+tags: [prose, history, networkX]
 author: Harrison Waddell
 ---
 
