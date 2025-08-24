@@ -9,5 +9,5 @@ tags: [prose, toronto]
 author: Harrison Waddell
 ---
 
-[link to map](https://hswaggle.github.io/github.io/bike_station_map_stadia_toner%20(3).html)
+[link to map](https://hswaggle.github.io/github.io/toronto_bikes_1.html)
 
