@@ -9,4 +9,4 @@ tags: [prose, history, networkX]
 author: Harrison Waddell
 ---
 
-[link to map](bike_station_map_stadia_toner (3).html) 
+[link to map](https://hswaggle.github.io/github.io/bike_station_map_stadia_toner%20(3).html)
