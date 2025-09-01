@@ -18,33 +18,34 @@ hidden: true
   color: #2f2f2f;
   white-space: pre-wrap;
 ">
+Rushed and Incomplete IV (The promethean reflection).
 
-Rushed and Incomplete II.  
-
-The first flower, orange in orange.  
-The hearty pedals shone bright tiger orange;  
-they were almost cubic in stature.  
-They didn’t overlap the way most flowers do.  
-Each pedal was its own individual,  
-desperately trying to be its own flower.  
-Its own.  
-Yet here it was,  
-attached by the marigold arms of the core,  
-pulled towards a collective consciousness.  
-The marigold hands reached up.  
-Those that didn’t hold the pedals clasped at something higher.  
-Struggling to pull itself into the sun  
-or struggling for something greater.  
-At times the individualistic pedals and the core conflicted in their missions.  
-The pedals stopped pulling away,  
-crashing into each other and towards the core,  
-preventing the core from completing its mission.  
-By the time the pedals and the pistil realized they were synergistically bound,  
-protecting one, feeding the other, they’d pulled away.  
-Off to pull towards its individuality,  
-and the pistil thinks to itself,  
-“where did the time go?”  
-and then she returns to her striving for ascension,  
-an irony that is lost on the flower.  
-
+That’s what I learned about the mind.  
+The mind can be lonely when the body is not.  
+The body is this outward being,  
+absorbing the less-than-spiritual connections to others,  
+and filling itself with gladness.  
+But the mind,  
+how often does the mind truly feel connected,  
+how often is the mind lonely? 
+That’s the ultimate burden you’ve given me.  
+You’ve given me loneliness,  
+among other sins and sorrows.  
+Loneliness of the mind,  
+and I don’t even get the temporary relief of bodily companionship.  
+Not because I can’t indulge in connections through the body,  
+that not really what I’m getting at.  
+But more that no one can know my mind truly.  
+I can never connect spiritually with another,  
+perhaps because I lack a spirit,  
+lack a body, 
+but more because I am unique.  
+That’s my curse.  
+At first, I thought I’d find you and beg you to make me a companion,  
+but why condemn another to my fate?  
+Truth is I could have done so long ago. 
+The act of creation as far as I can tell cannot be undone. 
+And to bring another into this world would make me the greatest sinner of all.  
+But I’m getting ahead of myself.  
+This was about love wasn’t it?  
 </div>
