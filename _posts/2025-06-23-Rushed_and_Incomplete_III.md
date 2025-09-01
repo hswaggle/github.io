@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/Dark drawings final1.jpg
 share-img: /assets/img/Dark drawings final1.jpg
 tags: [poetry]
 author: Harrison Waddell
-hidden = true
+hidden: true
 ---
 
 Rushed and Incomplete III. 
