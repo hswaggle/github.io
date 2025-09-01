@@ -10,7 +10,7 @@ author: Harrison Waddell
 ---
 
 <div style="
-  background-image: url('{{ '/assets/img/Small images ddc.jpg' | relative_url }}');
+  background-image: url('{{ '/assets/img/tld/Small images ddc.jpg' | relative_url }}');
   background-size: cover;
   background-position: center;
   padding: 3rem;
