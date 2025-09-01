@@ -15,7 +15,7 @@ hidden: true
   background-size: cover;
   background-position: center;
   padding: 3rem;
-  color: white;
+  color: black;
 ">
 
 Rushed and Incomplete II. 
