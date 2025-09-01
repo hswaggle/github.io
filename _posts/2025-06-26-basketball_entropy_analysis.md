@@ -6,6 +6,7 @@ cover-img: /assets/img/entropy.png
 thumbnail-img: /assets/img/entropy.png
 share-img: /assets/img/entropy.png
 tags: [prose, sports analytics, statistics]
+date: 2025-06-26 10:00:00 -0400
 comments: true
 mathjax: true
 author: Harrison Waddell, Ismail Abdelmalek, and Charles Johnson
