@@ -47,5 +47,4 @@ and then she returns to her striving for ascension,
 an irony that is lost on the flower.  
 </div>
 
-***
-Figure 1. Dispatch I-IV
+<span style="text-decoration:overline">Figure 1. Dispatch I-IV</span>
