@@ -67,7 +67,7 @@ but it too is temporary.
 And the poet and the painter and the little boy who loves flowers cry,  
 because they still haven't found eternity. 
 
-![The Horses](https://beautifuljekyll.com/assets/img/The horses.jpg){: .mx-auto.d-block :}
+![The Horses](https://beautifuljekyll.com/assets/img/Thehorses.jpg){: .mx-auto.d-block :}
 ***
 Figure 3. The Horses
 
