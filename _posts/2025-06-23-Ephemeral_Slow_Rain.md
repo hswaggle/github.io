@@ -49,3 +49,21 @@ Below it, the green of the past holds it in its place.
 The stem, the history, the foundation of a plant.  
 And yet she too spreads out with her own arms,  
 not recognizing that her time is gone, her purpose filled. 
+
+And then we sit back, and we realize,  
+we aren't the person looking at the flower,  
+at least not anymore. 
+Now we sit looking at our painting of the flower.  
+How it captures so little of the likeness 
+but is that cherished flower all the same.  
+And we think how in the depths of winter that flower must feel pain, 
+but the painting, the water and pigment, it too was dying.  
+It will outlast the flower,  
+it will outlast the painter,  
+the poet,  
+the pain, 
+the joy, 
+but it too is temporary.  
+And the poet and the painter and the little boy who loves flowers cry,  
+because they still haven't found eternity. 
+
