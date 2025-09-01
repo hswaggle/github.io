@@ -11,7 +11,7 @@ hidden: true
 ---
 
 <div style="
-  background-image: url('{{ '/assets/img/ItoIV.jpg' | relative_url }}');
+  background-image: url('{{ '/assets/img/Small images ddc.jpg' | relative_url }}');
   background-size: cover;
   background-position: center;
   padding: 3rem;
