@@ -68,6 +68,5 @@ And the poet and the painter and the little boy who loves flowers cry,
 because they still haven't found eternity. 
 
 ![The Horses](https://beautifuljekyll.com/assets/img/Thehorses.jpg){: .mx-auto.d-block :}
-***
-Figure 3. The Horses
+<span style="text-decoration:overline">Figure 3. The Horses</span>
 
