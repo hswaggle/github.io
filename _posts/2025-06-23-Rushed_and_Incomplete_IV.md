@@ -51,5 +51,4 @@ But I’m getting ahead of myself.
 This was about love wasn’t it?  
 </div>
 
-***
-Figure 2. Dispatch V-VIII
+<span style="text-decoration:overline">Figure 2. Dispatch V–VIII</span>
