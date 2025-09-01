@@ -46,5 +46,6 @@ and the pistil thinks to itself,
 and then she returns to her striving for ascension,  
 an irony that is lost on the flower.  
 </div>
----
+
+***
 Figure 1. Dispatch I-IV
