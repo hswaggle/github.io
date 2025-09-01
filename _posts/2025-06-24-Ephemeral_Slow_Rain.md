@@ -67,6 +67,6 @@ but it too is temporary.
 And the poet and the painter and the little boy who loves flowers cry,  
 because they still haven't found eternity. 
 
-![The Horses]({{ 'assets/img/Thehorses.jpg' | relative_url }}){: .mx-auto.d-block :}
+![The Horses]({{ 'assets/img/tld/Thehorses.jpg' | relative_url }}){: .mx-auto.d-block :}
 <span style="text-decoration:overline">Figure 3. The Horses</span>
 
