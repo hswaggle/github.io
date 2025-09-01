@@ -2,9 +2,9 @@
 layout: post
 title: The Last Dispatch
 subtitle: A Collection of Poems By Harrison Waddell
-cover-img: /assets/img/cover.jpg
-thumbnail-img: /assets/img/cover.jpg
-share-img: /assets/img/cover.jpg
+cover-img: /assets/img/tld/cover.jpg
+thumbnail-img: /assets/img/tld/cover.jpg
+share-img: /assets/img/tld/cover.jpg
 tags: [poetry]
 author: Harrison Waddell
 ---
