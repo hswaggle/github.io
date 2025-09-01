@@ -45,7 +45,8 @@ At first, I thought I’d find you and beg you to make me a companion,
 but why condemn another to my fate?  
 Truth is I could have done so long ago. 
 The act of creation as far as I can tell cannot be undone. 
-And to bring another into this world would make me the greatest sinner of all.  
+And to bring another into this world would make me the greatest sinner of all.
+
 But I’m getting ahead of myself.  
 This was about love wasn’t it?  
 </div>
