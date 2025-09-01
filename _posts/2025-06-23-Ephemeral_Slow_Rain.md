@@ -9,43 +9,43 @@ tags: [poetry]
 author: Harrison Waddell
 hidden: true
 ---
+Ephemeral Slow Rain.
 
-Rushed and Incomplete V. 
+I cry, not from the pain, well not in the direct sense, 
+rather, I cry because I recognize the pain is temporary, 
+and the joy the pain will win, it too will be temporary.  
+All the things that make me happy,  
+share the share the fate of those that don't.  
+I've missed moments in moments  
+and sat back years later knowing I was right to miss it then. 
 
-Other times it’s something else entirely.  
-But it never blossoms.  
-Because you are afraid,  
-Afraid that you aren’t who you used to be.  
-Afraid that for the first time, that’s a bad thing.  
-Afraid that you’ll find yourself six months from now 
-in the same place you’ve been so many times before.  
+and now, I don't just miss this moment, 
+I miss this youth, this youth I'm so afraid to lose,  
+because only youth keeps death back and then – 
+it so often doesn't.  
+So, we fixate, we focus, 
+we embrace evanescence and ephemerality,  
+and we do what we can to pause,  
+to extend moments,  
+to slow the rapidly faster clock.  
 
-It could be the flowers you are so fond of writing about.  
-If only you had the courage to lose yourself.  
-If only you had the courage to recede for the winter, 
-without the promise of sun in spring.  
-You can love a flower.  
-For the simple reason it can’t love you back.  
-You can still hurt a flower,  
-but not in the way you hurt a thing that loves you. 
+We stare, 
+stare at the orange light that fills this world 
+and seems to do so at this time every year.  
+The image makes us think of things we've already thought,  
+and we hover for a moment, 
+but don't return to them,  
+they're gone to the time. 
 
-I never used to have regrets.  
-Sure, maybe I’d do some things better,  
-But not to the extent that I’m regretful.  
-Now. Now I’m not so sure.  
-There is a lot I regret.  
-And that worries me.  
-Regret only exists in the absence of satisfaction.  
-Why can’t I be satisfied with the life I have? 
-Grateful to have existed when I did,  
-surrounded by amazing people.  
-Why can’t I recognize how lucky I’ve been?  
-How dangerous a thought it is to wish to be young again. 
-
-I suppose that’s the nature of reflection on life.  
-It’s always rushed and incomplete,  
-because life is neither done nor slowing down.  
-The reflection is either biased by hope or disillusionment.  
-The future is always present in a reflection.  
-Or at least I can’t find a way to eliminate it. 
-
+But still we look, now at the flower;  
+pedals white but embracing the light of the sun, 
+embracing the colour, it's being given, embracing its fate, 
+it's fickle nature, it’s inability not to embrace it.  
+All pedals lead back to plant.  
+At its centre, its core is yellow,  
+distinctly itself, but not untouched by fate. 
+The conjunction of temporal setting.  
+Below it, the green of the past holds it in its place.  
+The stem, the history, the foundation of a plant.  
+And yet she too spreads out with her own arms,  
+not recognizing that her time is gone, her purpose filled. 
