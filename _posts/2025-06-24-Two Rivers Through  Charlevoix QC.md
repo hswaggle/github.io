@@ -122,6 +122,6 @@ It’s different in every way.
 
 
 
-![The Last Dispatch]({{'/assets/img/thelastdispatch.jpg' | relative_url }}){: .mx-auto.d-block :}
+![The Last Dispatch]({{'/assets/img/tld/thelastdispatch.jpg' | relative_url }}){: .mx-auto.d-block :}
 <span style="text-decoration:overline">Figure 4. The Last Dispatch</span>
 
