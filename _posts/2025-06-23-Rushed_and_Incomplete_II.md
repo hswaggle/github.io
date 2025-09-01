@@ -15,7 +15,7 @@ hidden: true
   background-size: cover;
   background-position: center;
   padding: 3rem;
-  color: "2f2f2f";
+  color: #2f2f2f;
   white-space: pre-wrap;
 ">
 
