@@ -120,6 +120,8 @@ Your mother and the love she gave you.
 It’s different in every way.
 </div>
 
-![The Last Dispatch]({{ '/assets/img/thelastdispatch.jpg' | relative_url }}){: .mx-auto.d-block :}
+
+
+![The Last Dispatch]({{'assets/img/thelastdispatch.jpg' | relative_url }}){: .mx-auto.d-block :}
 <span style="text-decoration:overline">Figure 4. The Last Dispatch</span>
 
