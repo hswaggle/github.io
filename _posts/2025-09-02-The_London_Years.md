@@ -2,9 +2,9 @@
 layout: post
 title: The London Years
 subtitle: A visual reminescence
-cover-img: '/assets/img/digital division.jpg'
-thumbnail-img: '/assets/img/digital division.jpg'
-share-img: '/assets/img/digital division.jpg'
+cover-img: '/assets/img/tly/digitaldivision.jpg'
+thumbnail-img: '/assets/img/tly/digital division.jpg'
+share-img: '/assets/img/tly/digital division.jpg'
 tags: [art]
 author: Harrison Waddell
 ---
@@ -25,7 +25,7 @@ The first collage, pulled images from articles about covid, alpinism, fraying Eu
 
 The second pulls from the same article about children with down syndrome, an article on data policy, and two articles I don't remember.
 
-![Digital Divisions]({{ '/assets/img/tly/digitaldivisions.jpg' | relative_url }}){: .mx-auto.d-block :}
+![Digital Divisions]({{ '/assets/img/tly/digital divisions.jpg' | relative_url }}){: .mx-auto.d-block :}
 
 I found further meanings in the juxtopositions of images with articles imbuing meaning beyond the visual. The third collage pulled from an article on "black" television, the return of Eddie Murphy, and ecology. 
 
