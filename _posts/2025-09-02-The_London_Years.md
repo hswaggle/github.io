@@ -2,14 +2,14 @@
 layout: post
 title: The London Years
 subtitle: A visual reminiscence
-cover-img: '/assets/img/tly/digital%20division.jpg'
-thumbnail-img: '/assets/img/tly/digital%20division.jpg'
-share-img: '/assets/img/tly/digital%20division.jpg'
+cover-img: /assets/img/tly/digital%20division.jpg
+thumbnail-img: /assets/img/tly/digital%20division.jpg
+share-img: /assets/img/tly/digital%20division.jpg
 tags: [art]
 author: Harrison Waddell
 ---
 
-Growing up my walls we're blank. To protect the paint. The first bedroom I decorated was my mold infested london basement apartment. I plastered the walls with whatever I could get my hands on. Personal works, a triptych of blue nudes (Picasso, Matisse, Unnamed digital artist), a calendar of Audrey Hepburn, a dyptych of Black and White photos (the streets of manhattan and its visual twin - waves on a beach), a series of film photos taken by my sister 10 years prior, but most prominent were the countless cutouts from atlantic articles.  
+Growing up my walls we're blank. To protect the paint. The first bedroom I decorated was my mold infested london basement apartment. I plastered the walls with whatever I could get my hands on. Personal works, a triptych of blue nudes (Picasso, Matisse, Unnamed digital artist), a calendar of Audrey Hepburn, a dyptych of Black and White photos (the streets of manhattan and its visual twin - waves on a beach), a series of film photos taken by my sister 10 years prior, but most prominent were the countless cutouts from Atlantic articles.  
 
 My uncle gave me a subscription to the magazine after I'd torn through the incredible article [Double Blind](https://www.theatlantic.com/magazine/archive/2006/04/double-blind/304710/), which if you have not read is far more worthy of your time than what is to come. 
 
