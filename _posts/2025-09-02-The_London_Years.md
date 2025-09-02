@@ -2,7 +2,7 @@
 layout: post
 title: The London Years
 subtitle: A visual reminiscence
-cover-position: bottom-center
+cover-position: bottom center
 cover-img: /assets/img/tly/digital%20divisions.jpg
 thumbnail-img: /assets/img/tly/digital%20divisions.jpg
 share-img: /assets/img/tly/digital%20divisions.jpg
