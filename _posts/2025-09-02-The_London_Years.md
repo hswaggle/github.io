@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The London Years
-subtitle: A visual reminescence
+subtitle: A visual reminiscence
 cover-img: '/assets/img/tly/digital%20division.jpg'
 thumbnail-img: '/assets/img/tly/digital%20division.jpg'
 share-img: '/assets/img/tly/digital%20division.jpg'
@@ -13,7 +13,7 @@ Growing up my walls we're blank. To protect the paint. The first bedroom I decor
 
 My uncle gave me a subscription to the magazine after I'd torn through the incredible article [Double Blind](https://www.theatlantic.com/magazine/archive/2006/04/double-blind/304710/), which if you have not read is far more worthy of your time than what is to come. 
 
-Even though at the time, I was merely looking for aestheticly pleasing images for decoration, the topicality of the actual articles and the art that supplemented them has allowed for a visual reminescence on the events that defined my years in London.
+Even though at the time, I was merely looking for aestheticly pleasing images for decoration, the topicality of the actual articles and the art that supplemented them has allowed for a visual reminiscence on the events that defined my years in London.
 
 As I moved out, I tore the images from my walls. The paint often coming with, the images suffering tears and rips, the cost of having been permanently installed.
 
