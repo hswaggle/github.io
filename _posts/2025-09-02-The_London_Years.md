@@ -2,9 +2,9 @@
 layout: post
 title: The London Years
 subtitle: A visual reminiscence
-cover-img: /assets/img/tly/digital%20division.jpg
-thumbnail-img: /assets/img/tly/digital%20division.jpg
-share-img: /assets/img/tly/digital%20division.jpg
+cover-img: /assets/img/tly/digital%20divisions.jpg
+thumbnail-img: /assets/img/tly/digital%20divisions.jpg
+share-img: /assets/img/tly/digital%20divisions.jpg
 tags: [art]
 author: Harrison Waddell
 ---
