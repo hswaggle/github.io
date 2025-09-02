@@ -10,3 +10,5 @@ author: Harrison Waddell
 ---
 
 Growing up my walls we're blank. To protect the paint. The first bedroom I decorated was my mold infested london basement apartment. I plastered the walls with whatever I could get my hands on. Personal works, a triptych of blue nudes (Picasso, Matisse, Unnamed digital artist), a calendar of audrey hepburn, a dyptych of BW photos (the streets of manhattan and its visual twin - waves on a beach), but most prominent were the countless cutouts from atlantic articles.  
+
+My uncle gave me a subscription to the magazine after I'd torn through the incredible article [Double Blind]{https://www.theatlantic.com/magazine/archive/2006/04/double-blind/304710/}. 
