@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: In Search of Moderates
 permalink: /climbing/
 cover-img: /assets/img/ism/Evergreen.JPEG
