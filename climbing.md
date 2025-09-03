@@ -34,6 +34,12 @@ It reads:
      These things are enough is everything. <br>
      d H Haro.
 </blockquote>
+
+*These things are enough is everything* has stuck with me, the slight gramatical dissonance, the philosophical ressonance, finding it attached to a tree while off route presumably placed intentionally away. The complete absence of a digital presence in my search to find the author. The embodiment of the sentiment in that. 
+
+I found it at the perfect time, I'd been dreaming of this rockies trip for months. My first foray into the *real* mountains. An opportunity to tick some hard ice routes that would enshrine my status as a mountaineer. Instead we spent the whole trip watching the avalanche reports for change, and climbing crag ice dissimilar only to our home province in the beautiful mountains in the background that you could only look at and yearn for.
+
+And on the brink of upset, I found that truly these things are enough **is everything**. 
     
 In the winter of 2021-22, Toronto got about 2-3 feet of snow overnight, reeling from the social absence of a now slightly less strict lockdown. I called two of my buddies to see if they wanted to try to ski at the Brickworks, a historic quarry that has been 90 percent filled in but still offers ~60-70 metres of verticality. Up we went, post-holing through the new snow. At the top, a variety of lines presented themselves, from moderate to steep. Our first lap we realized, the fresh snow had no base layer to protect our skiis from the brick paded hills beneath. What at best could be described as a moderate franken-backcity descent, proved to be a boatload of fun. 
 
