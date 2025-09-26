@@ -2,14 +2,14 @@
 layout: post
 title: 17.  
 
-cover-img: /assets/img/tly/digital divisions.jpg
-thumbnail-img: /assets/img/tly/digital divisions.jpg
-share-img: /assets/img/tly/digital divisions.jpg
+cover-img: /assets/img/tly/the host.jpg
+thumbnail-img: /assets/img/tly/the host.jpg
+share-img: /assets/img/tly/the host.jpg
 tags: [poetry]
 author: Harrison Waddell
 ---
 
-17.  
+*17.*
 
 When I was 17 I wrote:
 "The best thing you could be in five years
