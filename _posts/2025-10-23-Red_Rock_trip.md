@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Red Rock Trip 2023
-cover-img: /assets/img/bike_map.png
-thumbnail-img: /assets/img/bike_map.png
-share-img: /assets/img/bike_map.png
+cover-img: /assets/img/Calico_Map.png
+thumbnail-img: /assets/img/Calico_Map.png
+share-img: /assets/img/Calico_Map.png
 tags: [prose, map, climbing]
 author: Harrison Waddell
 ---
