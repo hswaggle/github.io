@@ -9,7 +9,7 @@ author: Harrison Waddell
 ---
 
 
-<iframe src="https://hswaggle.github.io/github.io/toronto_bikes_2.html"
+<iframe src="https://hswaggle.github.io/github.io/map.html"
         width="600"
         height="400"
         style="border:1px solid #ccc; border-radius:8px;">
