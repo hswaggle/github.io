@@ -172,6 +172,19 @@
     {% endfor %}
   {% endif %}
 
+  {% if site.favicon_path %}
+  <link rel="icon" href="{{ site.favicon_path }}">
+  {% endif %}
+  
+  {% if site.apple_touch_icon_path %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon_path }}">
+  {% endif %}
+  
+  {% if site.manifest_path %}
+    <link rel="manifest" href="{{ site.manifest_path }}">
+  {% endif %}
+
+
 </head>
 
 <style>
