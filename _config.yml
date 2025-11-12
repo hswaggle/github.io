@@ -44,6 +44,11 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/digigard.png"
 
+# Favicon configuration
+favicon_path: "/github.io/assets/img/fav/favicon.ico"
+apple_touch_icon_path: "/github.io/assets/img/fav/apple-touch-icon.png"
+manifest_path: "/github.io/assets/img/fav/site.webmanifest"
+
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
