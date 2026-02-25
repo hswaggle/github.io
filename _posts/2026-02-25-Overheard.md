@@ -30,7 +30,7 @@ Je suis pas religieux. Je chanter pour une mosque, mais je suis pas religieuse. 
 
 Quand on âge, on trouve plus en plus la devin dans le petits. J’ai plus envie d’avoir.  Tu sais, chez moi, je chante au douche. T’es petits cousins, les acrobats, huit et dis, il joue sur l’autre côté du mur du douche. Je l’ai entend, se chanter mon chanson. 
 
- ![](/assets/img/ftx/blue_nude.jpg)
+ ![](/assets/img/ftx/Blue_nude.jpg)
 
 
 
