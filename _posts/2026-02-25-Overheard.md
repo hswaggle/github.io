@@ -4,7 +4,7 @@ title: Overheard
 cover-img: /assets/img/ftx/found_texture_created.jpg
 thumbnail-img: /assets/img/ftx/found_texture_created.jpg
 share-img: /assets/img/ftx/found_texture_created.jpg
-tags: [poetry],[art]
+tags: [poetry, art]
 author: Harrison Waddell
 ---
 
