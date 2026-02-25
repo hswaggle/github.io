@@ -2,9 +2,9 @@
 layout: post
 title: Texas Funeral.  
 
-cover-img: /assets/img/tly/the host.jpg
-thumbnail-img: /assets/img/tly/the host.jpg
-share-img: /assets/img/tly/the host.jpg
+cover-img: /assets/img/the_tired.png
+thumbnail-img: /assets/img/the_tired.png
+share-img: /assets/img/the_tired.png
 tags: [poetry]
 author: Harrison Waddell
 ---
